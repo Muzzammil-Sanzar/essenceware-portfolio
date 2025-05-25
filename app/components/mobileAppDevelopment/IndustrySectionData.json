@@ -1,0 +1,87 @@
+[
+  {
+    "key": "ecommerce",
+    "name": "E-commerce",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341603/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/ECOM_chnmp9.png"
+  },
+  {
+    "key": "clothing",
+    "name": "Clothing",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341600/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/CLOTHING_oxpqbz.png"
+  },
+  {
+    "key": "educational",
+    "name": "Educational",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341607/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/EDUCATIONAL_ztm4d1.png"
+  },
+  {
+    "key": "automotive",
+    "name": "Automotive",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341597/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/AUTOMOTIVE_ltmuj5.png"
+  },
+  {
+    "key": "gaming",
+    "name": "Gaming",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341610/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/GAMING_ljncnf.png"
+  },
+  {
+    "key": "navigational",
+    "name": "Navigational",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341614/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/NAVIGATIONAL_lq8ahp.png"
+  },
+  {
+    "key": "dating",
+    "name": "Dating",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341572/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/DATING_lwzxz2.png"
+  },
+  {
+    "key": "social-networking",
+    "name": "Social Networking",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341593/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/SOCIAL_NETWORKING_t4avj3.png"
+  },
+  {
+    "key": "event-managment",
+    "name": "Event Management",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341576/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/EVENT_MANAGEMNT_lj8evq.png"
+  },
+  {
+    "key": "reminder",
+    "name": "Reminder",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341590/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/REMINDER_ujjrwr.png"
+  },
+  {
+    "key": "financialtech",
+    "name": "Fintech",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341680/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/FINTECH_2_vtw3bk.png"
+  },
+  {
+    "key": "horticulture",
+    "name": "Horticulture",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341579/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/HORICULTURAL_krgmhs.png"
+  },
+  {
+    "key": "service-provider",
+    "name": "Service Provider",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341570/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/SERVICE_PROVIDER_tueo7j.png"
+  },
+  {
+    "key": "telehealth",
+    "name": "Telehealth",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341570/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/TELEHEALTH_u9fuke.png"
+  },
+  {
+    "key": "medical",
+    "name": "Medical",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341566/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/MEDICAL_gt2azl.png"
+  },
+  {
+    "key": "prayer-reminder",
+    "name": "Prayer Reminder",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341618/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/PRAYER_REMINDER_vwp6zu.png"
+  },
+  {
+    "key": "IoT",
+    "name": "IOT",
+    "image": "https://res.cloudinary.com/dprxdqfxc/image/upload/v1722341586/Duseca%20Landing%20Page-1/App%20Ind-Thumbnails/IOT_sfojy5.png"
+  }
+]

@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+.custom-height {
+
+}
+
+@media (min-width: 376px) and (max-width: 474px) {
+  .custom-height {
+    height: 15rem; 
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1D7CCF;
+  border-radius: 20px;
+  border: 1px solid #1D7CCF;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1D7CCF;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  height: 1px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #82868a;
+  border-radius: 20px;
+  border: 1px solid #bfc5cb00;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #1D7CCF;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #1D7CCF;
+  border-radius: 20px;
+  border: 1px solid #1D7CCF;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #1D7CCF;
+}
+
+._cUP1np9gMvFQrcPftuf.xahN8AEzyAvQtVj17TPv{
+  margin-top: 0px !important;
+  margin-bottom: 20px !important;
+}
+
+.embla__button {
+  -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+  -webkit-appearance: none;
+  appearance: none;
+  touch-action: manipulation;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  margin: 0;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.embla__button:disabled {
+  background-color: rgba(179, 179, 179, 0.61);
+  color: white;
+}
+
+.embla__button__svg {
+  width: 35%;
+  height: 35%;
+}
+
+
+img[src$=".svg"] {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+
+.b {
+  border: 1px solid red;
+}

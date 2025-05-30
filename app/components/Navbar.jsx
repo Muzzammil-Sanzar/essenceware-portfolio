@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import logo from "@/app/assets/logo2.png";
+import logo from "@/app/assets/logo.svg";
 import Image from "next/image";
 import { FaBars } from "react-icons/fa";
 import { RxCross2 } from "react-icons/rx";
@@ -37,13 +37,15 @@ const Navbar = ({ activeSection }) => {
     <div className="sticky top-0 z-50 bg-white items-center border-b-[1.5px] border-blue-150/30 pt-4 pb-2">
       <div className="flex flex-wrap items-center justify-between">
         <div>
-          <Image
-            priority={false}
-            loading="lazy"
-            src={logo}
-            alt="logo"
-            width={186}
-          />
+          <Link href={"/"}>
+            <Image
+              priority={false}
+              loading="lazy"
+              src={logo}
+              alt="logo"
+              width={186}
+            />
+          </Link>
         </div>
         <ul className="lg:flex hidden text-xs lg:text-sm gap-3 xl:gap-5 items-center text-gray-150 ">
           {/* {links.map(({ id, link }) => (

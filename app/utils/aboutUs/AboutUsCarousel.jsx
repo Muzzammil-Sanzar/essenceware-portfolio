@@ -40,7 +40,7 @@ export default function AboutUsCarousel() {
 
   return (
     <>
-      <section className="embla11  relative lg:max-w-lg xl:max-w-[930px] w-full md:flex md:items-center">
+      <section className="embla11  relative  w-full md:flex md:items-center">
         {/* TEMP CHANGES OF ARROWS */}
         <div className="hidden md:flex ">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />

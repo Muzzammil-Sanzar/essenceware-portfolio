@@ -25,7 +25,7 @@ export default async function About() {
             <p
               className={`sm:max-w-lg lg:max-w-[762px] lg:mb-12 font-medium leading-7 lg:text-base text-[13px] hidden sm:block`}
             >
-              Duseca is a mobile app development agency focused on making great
+              Essenceware is a mobile app development agency focused on making great
               apps. Our team works hard to design and build apps that are easy
               to use and meet the needs of businesses and people. We aim to
               provide services that are dependable and straightforward, helping
@@ -34,14 +34,14 @@ export default async function About() {
             <p
               className={`sm:max-w-lg lg:max-w-[762px] lg:mb-12 font-medium leading-7 lg:text-base text-[13px] sm:hidden`}
             >
-              Duseca is a mobile app development agency focused on making great
+              Essenceware is a mobile app development agency focused on making great
               apps. Our team works hard to design and build apps that are easy
               to use and meet the needs of businesses and people.
             </p>
           </div>
         </div>
         <div className="flex mt-8 lg:flex-row flex-col items-center lg:divide-x-2 divide-blue-150/10 gap-y-12">
-          <div className="flex items-center justify-start lg:w-2/5 max-w-lg mx-auto w-full gap-4 md:gap-6">
+          {/* <div className="flex items-center justify-start lg:w-2/5 max-w-lg mx-auto w-full gap-4 md:gap-6">
             <div className="">
               <Image
                 priority={false}
@@ -84,9 +84,9 @@ export default async function About() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="lg:w-3/5 w-full space-y-10 lg:space-y-3">
+          <div className=" w-full space-y-10 lg:space-y-3">
             <AboutUsBtn />
             <div className="px-2">
               <AboutUsCarousel />

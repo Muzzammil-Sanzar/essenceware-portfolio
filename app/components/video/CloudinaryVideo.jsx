@@ -11,7 +11,7 @@ export default function CloudinaryVideo() {
     >
       <source
         src={
-          "https://res.cloudinary.com/dprxdqfxc/video/upload/Intro%20Video/intro_video_all_pages_bgt0a0.mp4"
+          "https://videos.pexels.com/video-files/4629798/4629798-uhd_2560_1440_25fps.mp4"
         }
         type="video/mp4"
       />

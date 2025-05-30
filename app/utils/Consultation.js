@@ -20,7 +20,7 @@ export default async function Consultation({ appName, showIcons }) {
           <div className="space-y-1">
             {showIcons && (
               <h2 className="text-base sm:text-lg mb-7 lg:text-2xl font-sans">
-                Looking for App Development Experts?
+                What our students say’s
               </h2>
             )}
             {showIcons && (

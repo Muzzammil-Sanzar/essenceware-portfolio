@@ -56,7 +56,12 @@ const Navbar = ({ activeSection }) => {
             </li>
           ))} */}
           <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
-            <NavLink icon={<GoHomeFill />} label="Home" scrollTo=".hero" isActive={activeSection === "hero"} />
+            <NavLink
+              icon={<GoHomeFill />}
+              label="Home"
+              scrollTo=".hero"
+              isActive={activeSection === "hero"}
+            />
             {/* <Link
               onClick={() => setNav(!nav)}
               href={"#hero"}
@@ -70,32 +75,52 @@ const Navbar = ({ activeSection }) => {
             {/* <Link onClick={() => setNav(!nav)} href={'#About Us'}>
               About Us
             </Link> */}
-            <NavLink label="About Us" scrollTo=".about-section" isActive={activeSection === "about"} />
+            <NavLink
+              label="About Us"
+              scrollTo=".about-section"
+              isActive={activeSection === "about"}
+            />
           </li>
           <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
             {/* <Link onClick={() => setNav(!nav)} href={'#Free Consultation'}>
               Consultations
             </Link> */}
-            <NavLink label="Consultations" scrollTo=".consultation-section" isActive={activeSection === "consultation"} />
+            <NavLink
+              label="Consultations"
+              scrollTo=".consultation-section"
+              isActive={activeSection === "consultation"}
+            />
           </li>
-          {/* <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105"> */}
-          {/* <Link onClick={() => setNav(!nav)} href={'#Our Work'}>
+          <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
+            {/* <Link onClick={() => setNav(!nav)} href={'#Our Work'}>
               Portfolio
             </Link> */}
-          {/* <NavLink label="Portfolio" scrollTo=".work-section" /> */}
-          {/* </li> */}
+            <NavLink
+              label="Courses"
+              scrollTo=".work-section"
+              isActive={activeSection === "work"}
+            />
+          </li>
           <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
             {/* <Link onClick={() => setNav(!nav)} href={'#Services'}>
               Services
             </Link> */}
-            <NavLink label="Services" scrollTo=".service-section" isActive={activeSection === "service"} />
+            <NavLink
+              label="Services"
+              scrollTo=".service-section"
+              isActive={activeSection === "service"}
+            />
           </li>
 
           <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
             {/* <Link onClick={() => setNav(!nav)} href={'#Reviews'}>
               Reviews
             </Link> */}
-            <NavLink label="Reviews" scrollTo=".reviews-section" isActive={activeSection === "reviews"} />
+            <NavLink
+              label="Reviews"
+              scrollTo=".reviews-section"
+              isActive={activeSection === "reviews"}
+            />
           </li>
         </ul>
         <div>
@@ -119,8 +144,9 @@ const Navbar = ({ activeSection }) => {
             onClick={closeMenu}
           ></div>
           <nav
-            className={`fixed top-0 right-0 bottom-0 flex flex-col w-80 py-6 px-6 bg-white border-r overflow-y-auto transform transition-transform duration-300 ${showMenu ? "translate-x-0" : "-translate-x-full"
-              }`}
+            className={`fixed top-0 right-0 bottom-0 flex flex-col w-80 py-6 px-6 bg-white border-r overflow-y-auto transform transition-transform duration-300 ${
+              showMenu ? "translate-x-0" : "-translate-x-full"
+            }`}
           >
             <div className="flex items-center mb-8 justify-between">
               <div>
@@ -159,7 +185,7 @@ const Navbar = ({ activeSection }) => {
               </li>
               <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
                 <Link onClick={() => setNav(!nav)} href={"#OurWork"}>
-                  Portfolio
+                  Courses
                 </Link>
               </li>
               <li className="cursor-pointer font-medium text-gray-350 hover:text-blue-150 hover:scale-105">
@@ -210,10 +236,11 @@ const NavLink = ({ icon, label, scrollTo, isActive }) => (
       window.scrollTo({ top: y, behavior: "smooth" });
       // document.querySelector(scrollTo).scrollIntoView({ behavior: "smooth", block: "center", inline: "end" });
     }}
-    className={`flex items-center gap-1 pb-2 md:mt-0 mt-6 text-xs lg:text-sm font-medium ${isActive
-      ? "text-blue-150 font-medium"
-      : "text-gray-350 hover:text-blue-150 transition ease-in-out duration-500"
-      }`}
+    className={`flex items-center gap-1 pb-2 md:mt-0 mt-6 text-xs lg:text-sm font-medium ${
+      isActive
+        ? "text-blue-150 font-medium"
+        : "text-gray-350 hover:text-blue-150 transition ease-in-out duration-500"
+    }`}
   >
     {icon} {label}
   </a>

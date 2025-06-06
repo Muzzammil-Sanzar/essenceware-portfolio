@@ -9,16 +9,6 @@ export default async function Reviews() {
       <div className="w-full space-y-4">
         {/* Reviews Header */}
         <div className="space-y-2">
-          <div>
-            <Link
-              href={"https://www.fiverr.com/agencies/duseca"}
-              target="__blank"
-            >
-              <span className="px-2 py-1 bg-[#122349] rounded whitespace-nowrap text-white cursor-pointer w-fit uppercase font-semibold text-sm">
-                fiverr <span className="text-[#1DBF73]">verified</span>
-              </span>
-            </Link>
-          </div>
           <div className="">
             <p className="font- text-gray-150 text-base ml-2">458 Reviews</p>
           </div>

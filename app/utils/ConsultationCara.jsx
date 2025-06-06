@@ -75,7 +75,7 @@ export default function ConsultationCara() {
                     <h1 className="font-semibold text-blue-350 text-sm truncate">
                       {x?.title?.split("|")?.[0]}
                     </h1>
-                    <div className="flex items-center gap-2 text-sm">
+                    {/* <div className="flex items-center gap-2 text-sm">
                       <p className="font-medium">Target Market:</p>
                       <div className="flex gap-1 items-center">
                         <img
@@ -85,7 +85,7 @@ export default function ConsultationCara() {
                         />
                         <p className="text-">{x?.targetMarket}</p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

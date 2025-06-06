@@ -34,19 +34,6 @@ const services = [
     alt: "mobile",
   },
   {
-    title: "Website Development",
-    description: [
-      "Wordpress",
-      "Shopify",
-      "Custom Website",
-      "SEO",
-      "Web analytics",
-      "Website Maintenance",
-    ],
-    image: digitalMarketing,
-    alt: "web",
-  },
-  {
     title: "UI/UX Design",
     description: [
       "Website Design",
@@ -58,7 +45,19 @@ const services = [
     alt: "ux ui",
   },
   {
-    title: "Ecommerce Store",
+    title: "App store optimisation",
+    description: [
+      "Apple store",
+      "Google play store",
+      "SEO",
+      "Stat analytics",
+      "Kpis",
+    ],
+    image: digitalMarketing,
+    alt: "web",
+  },
+  {
+    title: "SEO",
     description: [
       "Website Development",
       "Website Maintenance",
@@ -73,14 +72,13 @@ const services = [
     alt: "services",
   },
   {
-    title: "Software Development",
+    title: "Amazon A+ content",
     description: [
-      "Software Development",
-      "AI Development",
-      "Chatbot Development",
-      "QA & Review",
-      "User Testing",
-      "Databases",
+      "Amazon Lisitng",
+      "Product Hunting",
+      "SEO",
+      "Product Images",
+      "Maintanence",
     ],
     image: soft,
     alt: "services",
@@ -101,7 +99,7 @@ const services = [
     alt: "services",
   },
   {
-    title: "IT",
+    title: "Web development",
     description: ["DevOps & Cloud", "AWS", "GCP"],
     image: It,
     alt: "services",

@@ -8,7 +8,7 @@ export default function PricingBtn() {
     <>
       <button
         onClick={(e) => setisPricingOpen(true)}
-        className="whitespace-nowrap py-2.5 px-[18px]  bg-[#0769BE] rounded-lg text-white font-semibold"
+        className="whitespace-nowrap py-2.5 px-[18px]  bg-blue-150 rounded-lg text-white font-semibold"
         type="button"
       >
         Request pricing

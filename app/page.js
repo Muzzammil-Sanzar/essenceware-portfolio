@@ -47,14 +47,14 @@ export default async function Home() {
               <AppIndustries />
             </div>
             <div className=" border-t  border-[#DADBDD] w-full"></div> */}
-            {/* <div
+            <div
               id="OurWork"
               className="work-section section"
               data-section-name="work"
             >
               <OurWork />
             </div>
-            <div className=" border-t border-[#DADBDD] w-full"></div> */}
+            <div className=" border-t border-[#DADBDD] w-full"></div>
             <div
               id="Services"
               className="service-section section"

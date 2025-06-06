@@ -93,11 +93,11 @@ export default function WorkCara() {
                         {x.title}
                       </h1>
                       <div className="text-gray-150 text-sm flex items-start justify-between">
-                        <p className="">Mobile App Case Study</p>
+                        <p className="">Instructor Name</p>
                       </div>
                     </div>
                     <button className="bg-gray-200 text-sm px-3 py-1.5 text-black font-semibold border rounded-lg whitespace-nowrap shadow">
-                      Learn more
+                      Free
                     </button>
                   </div>
                 </div>

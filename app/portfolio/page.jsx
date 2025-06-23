@@ -18,7 +18,7 @@ export default function Home() {
       <Header setIsPricingOpen={setIsPricingOpen} />
       <div className="max-w-screen-1xl mx-auto w-full ">
         <div className="my-16">
-          <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-5 rounded-lg bg-gray-350/10 p-4">
+          <div className="grid sm:grid-cols-2 xl:grid-cols-5 gap-5">
             {DetailedCaseStudy.map((x, index) => (
               <div
                 key={index}
@@ -28,27 +28,39 @@ export default function Home() {
                   setIndex(index);
                 }}
               >
-                <div className="bg-white p-2.5 rounded-md hover:shadow-xl hover:scale-100 duration-200 ease-in-out">
-                  <figure className="space-y-2">
-                    <div className="">
-                      <figcaption className="text-sm text-gray-450 font-bold">
-                        {x.title}
-                      </figcaption>
-                    </div>
-                    <div>
-                      <Image
-                        priority={false}
-                        loading="lazy"
-                        key={index}
-                        src={x?.image}
-                        alt={x.title}
-                        width={436}
-                        height={310}
-                      />
+                <div className="rounded-2xl  bg-white shadow border border-slate-100 p-2 hover:shadow-xl hover:scale-100 duration-200 ease-in-out">
+                  <div className="relative">
+                    <Image
+                      priority={false}
+                      loading="lazy"
+                      src={x?.image}
+                      alt="UBU"
+                      width={285}
+                      height={186}
+                      className="object-contain w-full h-full rounded-2xl shadow-md"
+                    />
+                  </div>
 
-                      {/* <Image  priority={false} loading="lazy"   className="object-contain w-full" src={LadiesCircleDetailed} quality={100} /> */}
+                  <div className="flex justify-between items-center py-2 space-y-1 rounded-b-2xl px-2">
+                    <div className="space-y-1">
+                      <div>
+                        <p className="text-gray-600 text-sm">{x.company}</p>
+                      </div>
+                      <h1 className="font-semibold text-sm truncate text-wrap pb-5">
+                        {x.title}
+                      </h1>
+                      <div className="text-gray-150 text-sm ">
+                        <p className="">
+                          Course duration:{" "}
+                          <span className="font-semibold">{x.duration}</span>{" "}
+                        </p>
+                        <p className="">
+                          Course difficulty:{" "}
+                          <span className="font-semibold">{x.dificulty}</span>{" "}
+                        </p>
+                      </div>
                     </div>
-                  </figure>
+                  </div>
                 </div>
               </div>
             ))}

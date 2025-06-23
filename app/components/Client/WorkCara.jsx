@@ -55,7 +55,7 @@ export default function WorkCara() {
   );
   return (
     <>
-      <section className="embla12 relative max-w-screen-md lg:max-w-2xl xl:max-w-[930px] w-full md:flex md:items-center gap-1">
+      <section className="embla12 relative w-full md:flex md:items-center gap-1">
         <div className="hidden md:flex">
           <PrevButton
             onClick={() => onButtonAutoplayClick(onPrevButtonClick)}
@@ -68,7 +68,7 @@ export default function WorkCara() {
               <div key={index} className="embla__slide12 ">
                 <div
                   id="portfolioCarousel"
-                  className="cursor-pointer portfolioCarousel rounded-2xl  bg-slate-100"
+                  className="cursor-pointer portfolioCarousel rounded-2xl  bg-white shadow border border-slate-100 p-2"
                   onClick={(e) => {
                     setIsOpen(true);
                     setSelectedCaseStudy(x);
@@ -81,24 +81,31 @@ export default function WorkCara() {
                       loading="lazy"
                       src={x?.image}
                       alt="UBU"
-                      width={450}
-                      height={316}
-                      className="object-contain rounded-2xl w-full shadow-md"
+                      width={285}
+                      height={186}
+                      className="object-contain w-full h-full rounded-2xl shadow-md"
                     />
                   </div>
 
-                  <div className="flex justify-between items-center py-2.5 space-y-1 rounded-b-2xl  bg-slate-100 px-2">
+                  <div className="flex justify-between items-center py-2 space-y-1 rounded-b-2xl px-2">
                     <div className="space-y-1">
-                      <h1 className="font-semibold text-sm truncate text-wrap">
+                      <div>
+                        <p className="text-gray-600 text-sm">{x.company}</p>
+                      </div>
+                      <h1 className="font-semibold text-sm truncate text-wrap pb-5">
                         {x.title}
                       </h1>
-                      <div className="text-gray-150 text-sm flex items-start justify-between">
-                        <p className="">Instructor Name</p>
+                      <div className="text-gray-150 text-sm ">
+                        <p className="">
+                          Course duration:{" "}
+                          <span className="font-semibold">{x.duration}</span>{" "}
+                        </p>
+                        <p className="">
+                          Course difficulty:{" "}
+                          <span className="font-semibold">{x.dificulty}</span>{" "}
+                        </p>
                       </div>
                     </div>
-                    <button className="bg-gray-200 text-sm px-3 py-1.5 text-black font-semibold border rounded-lg whitespace-nowrap shadow">
-                      Free
-                    </button>
                   </div>
                 </div>
               </div>

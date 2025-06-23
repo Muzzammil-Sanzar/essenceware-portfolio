@@ -43,7 +43,8 @@ const Navbar = ({ activeSection }) => {
               loading="lazy"
               src={logo}
               alt="logo"
-              width={186}
+              width={230}
+              className="object-contain"
             />
           </Link>
         </div>

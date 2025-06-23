@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Privacy Policy | Duseca App Development Agency",
+  title: "Privacy Policy | Essenceware",
 };
 
 export default function NestedLayout({ children }) {

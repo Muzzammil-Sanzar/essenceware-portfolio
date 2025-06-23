@@ -2,35 +2,50 @@ export const CaseStudy = [
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
@@ -40,84 +55,120 @@ export const DetailedCaseStudy = [
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },
   {
     image:
       "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    title: "Course Name",
+    title: "Python for everybody",
+    company: "Essenceware",
+    duration: "2 months",
+    dificulty: "Intermediate",
     intro:
       "Embark on a seamless shopping experience with Order Ease, your go-to E-commerce app for both iOS and Android. Whether you're a seasoned online shopper or just exploring the world of digital retail, Order Ease offers a user-friendly platform suitable for everyone. Dive into a variety of features designed to simplify your online shopping journey. Explore a diverse range of products and enjoy a hassle-free checkout process. With Order Ease, managing your orders and finding what you need is made easy. Immerse yourself in the convenience of online shopping, where every purchase is a breeze!",
   },

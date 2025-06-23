@@ -32,6 +32,23 @@ export default async function Home() {
             </div>
             <div className=" border-t border-[#DADBDD] w-full"></div>
             <div
+              id="Services"
+              className="service-section section"
+              data-section-name="service"
+            >
+              <Services />
+            </div>
+            <div className=" border-t border-[#DADBDD] w-full"></div>
+            <div
+              id="OurWork"
+              className="work-section section"
+              data-section-name="work"
+            >
+              <OurWork />
+            </div>
+
+            <div className=" border-t border-[#DADBDD] w-full"></div>
+            <div
               id="Free Consultation"
               className="consultation-section section"
               data-section-name="consultation"
@@ -47,22 +64,7 @@ export default async function Home() {
               <AppIndustries />
             </div>
             <div className=" border-t  border-[#DADBDD] w-full"></div> */}
-            <div
-              id="OurWork"
-              className="work-section section"
-              data-section-name="work"
-            >
-              <OurWork />
-            </div>
-            <div className=" border-t border-[#DADBDD] w-full"></div>
-            <div
-              id="Services"
-              className="service-section section"
-              data-section-name="service"
-            >
-              <Services />
-            </div>
-            <div className=" border-t border-[#DADBDD] w-full"></div>
+
             <div
               id="Reviews"
               className="reviews-section section"

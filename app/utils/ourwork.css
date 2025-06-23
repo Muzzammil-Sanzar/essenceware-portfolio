@@ -6,8 +6,9 @@
   --slide-spacing-sm: 1.6rem;
   --slide-size-xs: 80%;
   --slide-size-sm: 50%;
+  --slide-size-md: 33%;
   --slide-spacing-lg: 2rem;
-  --slide-size-lg: calc(100% / 2);
+  --slide-size-lg: calc(100% / 4);
 }
 
 .embla__viewport12 {
@@ -27,7 +28,7 @@
   padding-left: var(--slide-spacing);
 }
 
-@media (min-width: 750px) {
+@media (min-width: 590px) {
   .embla__container12 {
     margin-left: calc(var(--slide-spacing-sm) * -1);
   }
@@ -44,7 +45,7 @@
   }
 
   .embla__slide12 {
-    flex: 0 0 var(--slide-size-xs);
+    flex: 0 0 var(--slide-size-md);
     padding-left: var(--slide-spacing-sm);
   }
 }

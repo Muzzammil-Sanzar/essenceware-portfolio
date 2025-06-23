@@ -1,7 +1,7 @@
 "use client";
 import { Dialog, Transition } from "@headlessui/react";
 import Image from "next/image";
-import logo from "../../assets/logo2.png";
+import logo from "../../assets/logo.svg";
 import { Fragment, useEffect, useState } from "react";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
 import RequestPricingModal from "../requestPricing/RequestPricingModal";
@@ -121,11 +121,13 @@ export default function ProjectModal({
             >
               <Dialog.Panel className=" w-full max-w-3xl transform overflow-auto bg-white rounded-md pb-5 mt-20 text-left align-middle shadow-xl transition-all">
                 <div className="sticky bg-white top-0 flex gap-4 items-center justify-between py-5 border-b px-5">
-                  <div className="w-28 h-12">
+                  <div className="">
                     <Image
                       priority={true}
                       src={logo}
                       alt="logo"
+                      width={250}
+                      height={100}
                       className="object-contain w-full h-full"
                     />
                   </div>

@@ -9,7 +9,7 @@ import {
   salesMembers,
 } from "@/app/data/TeamMembers";
 import Image from "next/image";
-import logo from "@/app/assets/logo2.png";
+import logo from "@/app/assets/logo.svg";
 import RequestPricingModal from "@/app/utils/requestPricing/RequestPricingModal";
 
 // const salesMembers = [
@@ -146,7 +146,9 @@ export default function TeamModal({ isOpen, setIsOpen }) {
                           loading="lazy"
                           src={logo}
                           alt="logo"
-                          className="object-contain w-full h-full"
+                          width={250}
+                          height={100}
+                          className="object-contain h-full"
                         />
                       </div>
                       {/* <div>
@@ -161,10 +163,11 @@ export default function TeamModal({ isOpen, setIsOpen }) {
                           <button
                             key={index}
                             onClick={() => handleCategoryChange(category)}
-                            className={`pb-2 md:mt-0 mt-4 lg:px-8 px-4 ${selectedCategory == category
-                              ? "text-blue-150 border-b-2 border-blue-110"
-                              : "text-gray-350 border-b-2 border-blue-110/[44%]"
-                              } font-semibold hover:text-blue-150 transition duration-300`}
+                            className={`pb-2 md:mt-0 mt-4 lg:px-8 px-4 ${
+                              selectedCategory == category
+                                ? "text-blue-150 border-b-2 border-blue-110"
+                                : "text-gray-350 border-b-2 border-blue-110/[44%]"
+                            } font-semibold hover:text-blue-150 transition duration-300`}
                           >
                             {category}
                           </button>

@@ -1,5 +1,5 @@
 import { IoChevronBack } from "react-icons/io5";
-import logo2 from "../../assets/logo2.png";
+import logo2 from "../../assets/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 export default function Header({ setIsPricingOpen }) {
@@ -13,7 +13,7 @@ export default function Header({ setIsPricingOpen }) {
           </div>
         </Link>
         <Link href={"/#OurWork"}>
-          <div className="w-28">
+          <div className="w-50">
             <Image priority={false} loading="lazy" src={logo2} alt="logo" />
           </div>
         </Link>

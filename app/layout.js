@@ -30,10 +30,10 @@ const Macan = localFont({
 });
 
 export const metadata = {
-  title: "Duseca App Development Agency | Get Free Consulations Now",
+  title: "Essenceware",
   // title: "In Maintenance Mode!",
   description:
-    "Duseca makes apps for every industry. Our skilled professionals create applications for education, healthcare, e-commerce, entertainment, and more.",
+    "Essenceware is a leading app development agency specializing in creating innovative solutions for various industries.",
 };
 
 export default function RootLayout({ children }) {

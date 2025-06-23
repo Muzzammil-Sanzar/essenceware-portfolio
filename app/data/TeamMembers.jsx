@@ -51,6 +51,31 @@ export const TeamCarousel = [
   },
 ];
 
+export const ceos = [
+  {
+    name: "Fawad",
+    role: "COO",
+    bio: "Fawad, the COO of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
+    imageSrc:
+      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+  {
+    name: "Muzzammil Sanzar",
+    role: "Sr. Website Developer",
+    bio: "Muzzamil, a senior website developer, engineers Advanced and user-focused sites with a blend of technical prowess and innovative design.",
+    imageSrc:
+      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+
+  {
+    name: "Muhammad Faridullah",
+    role: "Sr. App Developer",
+    bio: "Muhammad Faridullah, a senior iOS Apps Developer creates intuitive and high-performance iOS apps with passion for clean and scalable code.",
+    imageSrc:
+      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  },
+];
+
 export const allMembers = [
   {
     name: "Fawad",

@@ -55,7 +55,7 @@ export default async function About() {
                       loading="lazy"
                       src={member.imageSrc}
                       alt={member.name}
-                      className="lg:w-16 lg:h-16 w-11 h-11 rounded-full"
+                      className="lg:w-16 lg:h-16 w-11 h-11 rounded-full ring ring-blue-150/15"
                       width={64}
                       height={64}
                     />

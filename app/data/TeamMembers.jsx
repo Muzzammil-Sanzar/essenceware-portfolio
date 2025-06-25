@@ -1,175 +1,138 @@
+import fawad from "@/app/assets/FawadKhan.jpg";
+import fareed from "@/app/assets/fareed.jpg";
+import zeeshan from "@/app/assets/Zeeshan.jpg";
+import furqan from "@/app/assets/furqan.jpg";
+import waqas from "@/app/assets/waqas.jpg";
+import mehwish from "@/app/assets/mehwish.jpg";
+import MehranDurraniCEO from "@/app/assets/MehranDurraniCEO.jpg";
+import AzizUllahDirector from "@/app/assets/azizullahDirector.jpg";
+import aqsa from "@/app/assets/aqsa.jpg";
+import alam from "@/app/assets/alam.jpg";
+import hamza from "@/app/assets/hamza.jpg";
+import saqib from "@/app/assets/saqib.jpg";
+
 export const TeamCarousel = [
   {
     name: "Fawad",
     role: "COO",
     bio: "Fawad, the COO of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Muzzammil Sanzar",
-    role: "Sr. Website Developer",
-    bio: "Muzzamil, a senior website developer, engineers Advanced and user-focused sites with a blend of technical prowess and innovative design.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: fawad,
   },
 
   {
     name: "Muhammad Faridullah",
     role: "Sr. App Developer",
     bio: "Muhammad Faridullah, a senior iOS Apps Developer creates intuitive and high-performance iOS apps with passion for clean and scalable code.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: fareed,
   },
   {
     name: "Muhammad Zeeshan Nawaz",
     role: "UI/UX Designer",
     bio: "Muhammad Zeeshan, UI/UX Designer, designs with the user in mind—keeping things simple, clear, and effective for a better digital experience",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: zeeshan,
   },
   {
     name: "Muhammad Furqan",
     role: "Sr. Designer",
     bio: "Muhammad Furqan, Senior Designer, focuses on clean and user-friendly designs that make apps easy to use and enjoyable to explore.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: furqan,
   },
   {
     name: "Waqas Anwar",
     role: "UI/UX Designer",
     bio: "Waqas Anwar, UI/UX Designer, creates thoughtful, easy-to-use designs that improve how people interact with digital products",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: waqas,
   },
   {
     name: "Mehwish Iqbal",
     role: "ASO Exper",
     bio: "Mehwish Iqbal, ASO Expert, focuses on improving app rankings and downloads through effective app store optimization and data-driven techniques. ",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: mehwish,
   },
 ];
 
 export const ceos = [
   {
-    name: "Fawad",
+    name: "Fawad Khan",
     role: "COO",
     bio: "Fawad, the COO of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: fawad,
   },
   {
-    name: "Muzzammil Sanzar",
-    role: "Sr. Website Developer",
-    bio: "Muzzamil, a senior website developer, engineers Advanced and user-focused sites with a blend of technical prowess and innovative design.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Mehran Durrani",
+    role: "CEO",
+    bio: "Mehran Durrani, the CEO of Essenceware, drives the company with a focus on innovation and strategic growth.",
+    imageSrc: MehranDurraniCEO,
   },
-
   {
-    name: "Muhammad Faridullah",
-    role: "Sr. App Developer",
-    bio: "Muhammad Faridullah, a senior iOS Apps Developer creates intuitive and high-performance iOS apps with passion for clean and scalable code.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Aziz Ullah",
+    role: "Director",
+    bio: "Aziz Ullah, Director of Essenceware, leads with a focus on innovation and effective strategies, driving the company towards success.",
+    imageSrc: AzizUllahDirector,
   },
 ];
 
 export const allMembers = [
   {
     name: "Fawad",
-    role: "CEO",
-    bio: "Fawad, the CEO of Essenceware, leads the company with a focus on new ideas and doing things well. His clear vision helps the team work together and always get better.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Fawad",
     role: "COO",
-    bio: "Fawad, the COO of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-  {
-    name: "Muzzammil Sanzar",
-    role: "Sr. Website Developer",
-    bio: "Muzzamil, a senior website developer, engineers Advanced and user-focused sites with a blend of technical prowess and innovative design.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    bio: "Fawad, the COO of Essenceware, leads the company with a focus on new ideas and doing things well. His clear vision helps the team work together and always get better.",
+    imageSrc: fawad,
   },
 
   {
     name: "Muhammad Faridullah",
     role: "Sr. App Developer",
     bio: "Muhammad Faridullah, a senior iOS Apps Developer creates intuitive and high-performance iOS apps with passion for clean and scalable code.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: fareed,
   },
   {
     name: "Muhammad Zeeshan Nawaz",
     role: "UI/UX Designer",
     bio: "Muhammad Zeeshan, UI/UX Designer, designs with the user in mind—keeping things simple, clear, and effective for a better digital experience",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: zeeshan,
   },
   {
     name: "Muhammad Furqan",
     role: "Sr. Designer",
     bio: "Muhammad Furqan, Senior Designer, focuses on clean and user-friendly designs that make apps easy to use and enjoyable to explore.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: furqan,
   },
   {
     name: "Waqas Anwar",
     role: "UI/UX Designer",
     bio: "Waqas Anwar, UI/UX Designer, creates thoughtful, easy-to-use designs that improve how people interact with digital products",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: waqas,
   },
   {
     name: "Mehwish Iqbal",
     role: "ASO Exper",
     bio: "Mehwish Iqbal, ASO Expert, focuses on improving app rankings and downloads through effective app store optimization and data-driven techniques. ",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: mehwish,
   },
   {
     name: "Aqsa Kanwal",
     role: "Sr. Android Developer",
     bio: "Aqsa Kanwal, Android Developer, creates powerful and responsive Android applications, turning ideas into functional mobile solutions.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: aqsa,
   },
-
   {
-    name: "Muhammad Noman Khalid",
+    name: "Muhammad Alam",
     role: "Sr. Android Developer",
-    bio: "Muhammad Noman Khalid, Sr. Android Developer, handles employee matters, promotes team collaboration, and ensures HR functions run smoothly with clear guidance.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-  },
-
-  {
-    name: "Muhammad Noman Khalid",
-    role: "Senior Android Developer",
-    bio: "focuses on writing clean code and building user-friendly Android apps that work efficiently and look great.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    bio: "Muhammad Alam, Sr. Android Developer, handles employee matters, promotes team collaboration, and ensures HR functions run smoothly with clear guidance.",
+    imageSrc: alam,
   },
   {
     name: "Hamza Arshad",
     role: "Jr. Flutter Developer",
     bio: "Hamza Arshad, JR. Flutter Developer, builds fast and responsive mobile apps for both Android and iOS using clean code and modern design practices.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: hamza,
   },
   {
     name: "Saqib Salim",
     role: "Sr. Flutter Developer",
     bio: "Saqib Salim, Senior Flutter Developer, focuses on building high-performance mobile applications with Flutter, combining functionality with elegant UI.",
-    imageSrc:
-      "https://plus.unsplash.com/premium_photo-1723028769924-d18a792aeb07?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageSrc: saqib,
   },
 ];
 

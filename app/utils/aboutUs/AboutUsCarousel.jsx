@@ -45,7 +45,7 @@ export default function AboutUsCarousel() {
         <div className="hidden md:flex ">
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
         </div>
-        <div className="embla__viewport11" ref={emblaRef}>
+        <div className="embla__viewport11 py-2" ref={emblaRef}>
           <div className="embla__container11 md:divide-x-2 lg:divide-x-0 xl:divide-x-2 md:divide-blue-150/10">
             {TeamCarousel.map((member, index) => (
               <div key={index} className="embla__slide11">
@@ -60,7 +60,7 @@ export default function AboutUsCarousel() {
                         loading="lazy"
                         src={member.imageSrc}
                         alt={member.name}
-                        className="lg:w-16 lg:h-16 w-11 h-11 rounded-full"
+                        className="lg:w-16 lg:h-16 w-11 h-11 rounded-full ring ring-blue-150/15"
                         width={64}
                         height={64}
                       />

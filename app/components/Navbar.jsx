@@ -34,7 +34,7 @@ const Navbar = ({ activeSection }) => {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50 bg-white items-center border-b-[1.5px] border-blue-150/30 pt-4 pb-2">
+    <div className="sticky top-0 z-50 items-center border-b-[1.5px] border-blue-150/30 pt-4 pb-2">
       <div className="flex flex-wrap items-center justify-between">
         <div>
           <Link href={"/"}>
@@ -145,9 +145,8 @@ const Navbar = ({ activeSection }) => {
             onClick={closeMenu}
           ></div>
           <nav
-            className={`fixed top-0 right-0 bottom-0 flex flex-col w-80 py-6 px-6 bg-white border-r overflow-y-auto transform transition-transform duration-300 ${
-              showMenu ? "translate-x-0" : "-translate-x-full"
-            }`}
+            className={`fixed top-0 right-0 bottom-0 flex flex-col w-80 py-6 px-6 bg-white border-r overflow-y-auto transform transition-transform duration-300 ${showMenu ? "translate-x-0" : "-translate-x-full"
+              }`}
           >
             <div className="flex items-center mb-8 justify-between">
               <div>
@@ -237,11 +236,10 @@ const NavLink = ({ icon, label, scrollTo, isActive }) => (
       window.scrollTo({ top: y, behavior: "smooth" });
       // document.querySelector(scrollTo).scrollIntoView({ behavior: "smooth", block: "center", inline: "end" });
     }}
-    className={`flex items-center gap-1 pb-2 md:mt-0 mt-6 text-xs lg:text-sm font-medium ${
-      isActive
+    className={`flex items-center gap-1 pb-2 md:mt-0 mt-6 text-xs lg:text-sm font-medium ${isActive
         ? "text-blue-150 font-medium"
         : "text-gray-350 hover:text-blue-150 transition ease-in-out duration-500"
-    }`}
+      }`}
   >
     {icon} {label}
   </a>

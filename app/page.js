@@ -18,14 +18,14 @@ export default async function Home() {
     <>
       <div className="w-full ">
         <div className="w-full ">
-          <div className="relative w-full h-[70vh] md:h-[90vh] lg:h-[100vh] overflow-hidden mb-16 md:mb-20 lg:mb-28">
+          <div className="relative w-full h-[70vh] md:h-[90vh] lg:h-[80vh] overflow-hidden mb-16 md:mb-20 lg:mb-20">
             <div className="absolute hidden md:block top-0 left-0 w-full h-full ">
               <Image
                 priority={false}
                 loading="lazy"
                 src={background}
                 alt="logo"
-                className="w-full h-full"
+                className="w-full h-full object-cover"
                 width={230}
                 height={100}
                 quality={100}
@@ -34,7 +34,7 @@ export default async function Home() {
             <div className="max-w-screen-1xl mx-auto hero md:px-8 px-4" id="hero">
               <Headers />
 
-              <div className="hero-section section h-[60vh] sm:h-[80vh]" data-section-name="hero">
+              <div className="hero-section section h-[65vh]" data-section-name="hero">
                 <Hero />
               </div>
             </div>

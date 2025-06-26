@@ -74,7 +74,7 @@ export default function ProjectModal({
           </div>
 
           <div className="flex h-[98vh] items-center justify-center text-center flex-col">
-            <div className="absolute rounded-full z-50 top-[50%] w-full">
+            {/* <div className="absolute rounded-full z-50 top-[50%] w-full">
               <div className="max-w-4xl mx-auto lg:px-16 flex justify-between items-center px-2">
                 <div
                   onClick={(e) =>
@@ -108,7 +108,7 @@ export default function ProjectModal({
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <Transition.Child
               as={Fragment}

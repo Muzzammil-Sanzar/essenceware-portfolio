@@ -15,41 +15,16 @@ const HeroButtons = dynamic(() => import("./Client/HeroButtons"), {
 export default async function Hero() {
   return (
     <>
-      <div className="pt-8 md:pt-10 lg:pt-20 flex flex-wrap flex-row lg:flex-nowrap items-center justify-between gap-8">
-        <div className="text-blue-140 space-y-4 md:space-y-10">
-          {/* <Image
-            priority={false}
-            loading="lazy"
-            src={
-              "https://res.cloudinary.com/dprxdqfxc/image/upload/v1719218406/Badge/1_hkxusr.png"
-            }
-            alt="logo"
-            className=""
-            width={230}
-            height={100}
-            quality={100}
-          /> */}
-          <div className="space-y-2">
-            <h1 className="font-medium text-sm sm:text-base  text-blue-140 mb-3">
-              Your journey to expertise starts here, {" "}
-              <span className="text-[12px] sm:text-sm">Essenceware</span>
-            </h1>
-            <p className="text-xl md:text-2xl lg:text-5xl font-semibold max-w-[525px] md:leading-10">
-              Unlock Your Potential: Master New Skills with <span className="text-blue-150">Essenceware</span>
-            </p>
-          </div>
-          <HeroButtons />
-        </div>
-        <div className="md:hidden lg:block relative h-full">
-          <Image
-            priority={false}
-            loading="lazy"
-            src={hero}
-            alt="hero"
-            className="max-w-[700px] w-full hidden 1xl:block "
-          />
-          <div className="1xl:absolute top-0 max-w-[700px] w-full 1xl:h-[375px] rounded sm:rounded-lg lg:rounded-2xl overflow-hidden mb-5">
-            <CloudinaryVideo />
+      <div className=" flex flex-wrap flex-row w-full h-full lg:flex-nowrap items-center justify-between gap-8">
+        <div className="text-blue-140 space-y-4 md:space-y-10 w-full">
+          <div className="space-y-5 text-[#01A0C6] w-full">
+            <p className="text-center text-[#A0CBD5]">Web, Apps, and Growth — All in One Place</p>
+            <div className="text-xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center max-w-screen-lg mx-auto">
+              <h1 className="text-[#01A0C6] tracking-wide leading-snug">
+                Empowering Growth Through Innovation, Technology, and Learning Experiences for Individuals and Businesses
+              </h1>
+            </div>
+            <p className="text-center text-sm max-w-[900px] mx-auto text-[#A0CBD5]">Essenceware, we don’t just build technology—we build partnerships. Our success is measured by the growth and satisfaction of the clients we serve.</p>
           </div>
         </div>
       </div>

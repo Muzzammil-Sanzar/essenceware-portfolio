@@ -5,7 +5,7 @@ import furqan from "@/app/assets/furqan.jpg";
 import waqas from "@/app/assets/waqas.jpg";
 import mehwish from "@/app/assets/mehwish.jpg";
 import MehranDurraniCEO from "@/app/assets/MehranDurraniCEO.jpg";
-import AzizUllahDirector from "@/app/assets/azizullahDirector.jpg";
+import AzizUllahDirector from "@/app/assets/azizUllahDirector.jpg";
 import aqsa from "@/app/assets/aqsa.jpg";
 import alam from "@/app/assets/alam.jpg";
 import hamza from "@/app/assets/hamza.jpg";
@@ -14,8 +14,8 @@ import saqib from "@/app/assets/saqib.jpg";
 export const TeamCarousel = [
   {
     name: "Fawad",
-    role: "COO",
-    bio: "Fawad, the COO of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
+    role: "Director",
+    bio: "Fawad, the director of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
     imageSrc: fawad,
   },
 
@@ -53,16 +53,16 @@ export const TeamCarousel = [
 
 export const ceos = [
   {
-    name: "Fawad Khan",
-    role: "COO",
-    bio: "Fawad, the COO of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
-    imageSrc: fawad,
-  },
-  {
     name: "Mehran Durrani",
     role: "CEO",
     bio: "Mehran Durrani, the CEO of Essenceware, drives the company with a focus on innovation and strategic growth.",
     imageSrc: MehranDurraniCEO,
+  },
+  {
+    name: "Fawad Khan",
+    role: "Director",
+    bio: "Fawad, the director of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
+    imageSrc: fawad,
   },
   {
     name: "Aziz Ullah",

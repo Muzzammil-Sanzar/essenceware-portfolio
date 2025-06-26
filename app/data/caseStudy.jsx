@@ -1,3 +1,5 @@
+import python from "@/app/assets/python.jpg";
+
 export const CaseStudy = [
   {
     image:
@@ -53,8 +55,7 @@ export const CaseStudy = [
 
 export const DetailedCaseStudy = [
   {
-    image:
-      "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: python,
     title: "Python for everybody",
     company: "Essenceware",
     duration: "2 months",

@@ -2,11 +2,12 @@ import About from "./components/About";
 import Consultation from "./utils/Consultation";
 import OurWork from "./utils/OurWork";
 import Services from "./utils/Services";
-import AppIndustries from "./components/AppIndustries";
+import background from "@/app/assets/background.png"
 import Hero from "./components/Hero";
 import Reviews from "./utils/Reviews";
 
 import dynamic from "next/dynamic";
+import Image from "next/image";
 // import Headers from "@/components/Headers";
 const Headers = dynamic(() => import("./components/Headers"), {
   ssr: false,
@@ -15,14 +16,30 @@ const Headers = dynamic(() => import("./components/Headers"), {
 export default async function Home() {
   return (
     <>
-      <div className="w-full md:px-8 px-4">
-        <div className="max-w-screen-1xl mx-auto hero" id="hero">
-          <Headers />
-          <div className="hero-section section" data-section-name="hero">
-            <Hero />
+      <div className="w-full ">
+        <div className="w-full ">
+          <div className="relative w-full h-[70vh] md:h-[90vh] lg:h-[100vh] overflow-hidden mb-16 md:mb-20 lg:mb-28">
+            <div className="absolute hidden md:block top-0 left-0 w-full h-full ">
+              <Image
+                priority={false}
+                loading="lazy"
+                src={background}
+                alt="logo"
+                className="w-full h-full"
+                width={230}
+                height={100}
+                quality={100}
+              />
+            </div>
+            <div className="max-w-screen-1xl mx-auto hero md:px-8 px-4" id="hero">
+              <Headers />
+
+              <div className="hero-section section h-[60vh] sm:h-[80vh]" data-section-name="hero">
+                <Hero />
+              </div>
+            </div>
           </div>
-          <div className="my-16 md:my-20 lg:my-28 border-t border-[#DADBDD] w-full"></div>
-          <div className="space-y-16">
+          <div className="space-y-16 md:px-8 px-4">
             <div
               id="About Us"
               className="about-section section"

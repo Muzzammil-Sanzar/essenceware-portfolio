@@ -5,7 +5,7 @@ import furqan from "@/app/assets/furqan.jpg";
 import waqas from "@/app/assets/waqas.jpg";
 import mehwish from "@/app/assets/mehwish.jpg";
 import MehranDurraniCEO from "@/app/assets/MehranDurraniCEO.jpg";
-import AzizUllahDirector from "@/app/assets/azizUllahDirector.jpg";
+import AzizUllahDirector from "@/app/assets/AzizUllahDirector.jpg";
 import aqsa from "@/app/assets/aqsa.jpg";
 import alam from "@/app/assets/alam.jpg";
 import hamza from "@/app/assets/hamza.jpg";

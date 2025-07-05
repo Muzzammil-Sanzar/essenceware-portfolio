@@ -89,8 +89,17 @@ export default function WorkCara() {
 
                   <div className="flex justify-between items-center py-2 space-y-1 rounded-b-2xl px-2">
                     <div className="space-y-1">
-                      <div>
-                        <p className="text-gray-600 text-sm">{x.company}</p>
+                      <div className="flex items-center gap-x-1">
+                        <Image
+                          priority={false}
+                          loading="lazy"
+                          src={x.companyImage}
+                          width={30}
+                          height={30}
+                          className="object-cover rounded"
+                          alt={x.company}
+                        />
+                        <p className="text-sm">{x.company}</p>
                       </div>
                       <h1 className="font-semibold text-sm truncate text-wrap pb-5">
                         {x.title}

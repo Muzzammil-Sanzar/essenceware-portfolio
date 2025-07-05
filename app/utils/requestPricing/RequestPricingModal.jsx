@@ -72,11 +72,11 @@ export default function RequestPricingModal({ isOpen, setIsOpen }) {
         createdAt: serverTimestamp(),
         ...formData,
       };
-      const docRef = await addDoc(collection(db, "contactUs"), finalData);
-      // Update the voucherId field with the ID of the saved document
-      await updateDoc(doc(db, "contactUs", docRef.id), {
-        contactId: docRef.id,
-      });
+      // const docRef = await addDoc(collection(db, "contactUs"), finalData);
+      // // Update the voucherId field with the ID of the saved document
+      // await updateDoc(doc(db, "contactUs", docRef.id), {
+      //   contactId: docRef.id,
+      // });
       // setIsChatOpen(true);
       // setIsOpen(false);
       setIsMessage(
@@ -284,7 +284,7 @@ export default function RequestPricingModal({ isOpen, setIsOpen }) {
                               )}
                             </div>
                           </form>
-                          <div className="inline-flex items-center justify-center w-full pt-7">
+                          {/* <div className="inline-flex items-center justify-center w-full pt-7">
                             <hr className="w-[900PX] h-[1PX] bg-gray-450 border-0 rounded " />
                             <div className="absolute px-4 -translate-x-1/2 bg-white left-1/2 text-gray-650 font-medium text-base ">
                               OR
@@ -307,7 +307,7 @@ export default function RequestPricingModal({ isOpen, setIsOpen }) {
                                 designed to meet your needs.
                               </p>
                               <div className="flex justify-center lg:justify-start">
-                                {/* <Link href={'/chat'}> */}
+                                <Link href={'/chat'}>
                                 <button
                                   onClick={(e) => {
                                     // setIsOpen(false);
@@ -321,7 +321,7 @@ export default function RequestPricingModal({ isOpen, setIsOpen }) {
                                   <div className="bg-green-150/90 rounded-full h-1.5 w-1.5"></div>
                                   Chat now
                                 </button>
-                                {/* </Link> */}
+                                </Link>
                               </div>
                             </div>
                             <div className="lg:block hidden">
@@ -332,7 +332,7 @@ export default function RequestPricingModal({ isOpen, setIsOpen }) {
                                 alt="price"
                               />
                             </div>
-                          </div>
+                          </div> */}
                         </div>
                       </div>
                     </div>

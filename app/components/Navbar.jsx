@@ -34,7 +34,7 @@ const Navbar = ({ activeSection }) => {
   }, []);
 
   return (
-    <div className="sticky top-0 z-50 items-center border-b-[1.5px] border-blue-150/30 pt-4 pb-2">
+    <div className="sticky top-0 z-50 items-center border-b-[1.5px] bg-white border-blue-150/30 pt-4 pb-2">
       <div className="flex flex-wrap items-center justify-between">
         <div>
           <Link href={"/"}>
@@ -237,8 +237,8 @@ const NavLink = ({ icon, label, scrollTo, isActive }) => (
       // document.querySelector(scrollTo).scrollIntoView({ behavior: "smooth", block: "center", inline: "end" });
     }}
     className={`flex items-center gap-1 pb-2 md:mt-0 mt-6 text-xs lg:text-sm font-medium ${isActive
-        ? "text-blue-150 font-medium"
-        : "text-gray-350 hover:text-blue-150 transition ease-in-out duration-500"
+      ? "text-blue-150 font-medium"
+      : "text-gray-350 hover:text-blue-150 transition ease-in-out duration-500"
       }`}
   >
     {icon} {label}

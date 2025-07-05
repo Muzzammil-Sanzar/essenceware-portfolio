@@ -13,7 +13,6 @@ export default function ProjectModal({
   index,
   setIndex,
 }) {
-  console.log(Casestudy)
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 768);
   function closeModal() {

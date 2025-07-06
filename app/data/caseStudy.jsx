@@ -5,7 +5,7 @@ import bigData from "@/app/assets/bigData.png";
 import googleUx from "@/app/assets/googleUx.png";
 import Javascript from "@/app/assets/Javascript.png";
 import andriodJavas from "@/app/assets/andriodJava.png";
-import navttic from "@/app/assets/navttc.jpeg";
+import navttic from "@/app/assets/navttc.png";
 import { AdvancedWebApplication, AdvancePaython, andriodJava, ArtificialInteligence, BigData, FullStack, GoogleUx } from "./portfolioData";
 
 export const CaseStudy = [

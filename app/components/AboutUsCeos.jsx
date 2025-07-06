@@ -27,7 +27,7 @@ export default function AboutUsCeos() {
                   loading="lazy"
                   src={member.imageSrc}
                   alt={member.name}
-                  className="lg:w-16 lg:h-16 w-11 h-11 rounded-full ring ring-blue-150/15"
+                  className="lg:w-16 lg:h-16 w-11 h-11 rounded-full ring-1 object-cover ring-blue-150/50"
                   width={64}
                   height={64}
                 />

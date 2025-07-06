@@ -142,6 +142,7 @@ export default function ServicesCarousel({ openModal }) {
                         width={45}
                         height={45}
                         alt="service"
+                        className="logo"
                       />
                     </div>
                     <div className="text-base space-y-2 list-none">

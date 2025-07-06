@@ -92,3 +92,12 @@
     padding-left: var(--slide-spacing-lg);
   }
 }
+
+.logo {
+  /* to black */
+  filter: invert(1);
+  /* or to blue */
+filter: brightness(0) invert(1);
+/* Approximate #01A0C7 */
+filter: brightness(0) saturate(100%) invert(54%) sepia(99%) saturate(749%) hue-rotate(163deg) brightness(97%) contrast(101%);
+}

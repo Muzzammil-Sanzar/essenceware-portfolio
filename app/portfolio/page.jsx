@@ -18,7 +18,7 @@ export default function Home() {
       <Header setIsPricingOpen={setIsPricingOpen} />
       <div className="max-w-screen-1xl mx-auto w-full ">
         <div className="my-16">
-          <div className="grid sm:grid-cols-2 xl:grid-cols-5 gap-5">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 px-4">
             {DetailedCaseStudy.map((x, index) => (
               <div
                 key={index}
@@ -29,7 +29,7 @@ export default function Home() {
                 }}
               >
                 <div className="rounded-2xl  bg-white shadow border border-slate-100 p-2 hover:shadow-xl hover:scale-100 duration-200 ease-in-out">
-                  <div className="relative">
+                  <div className="relative pb-1">
                     <Image
                       priority={false}
                       loading="lazy"
@@ -43,10 +43,19 @@ export default function Home() {
 
                   <div className="flex justify-between items-center py-2 space-y-1 rounded-b-2xl px-2">
                     <div className="space-y-1">
-                      <div>
-                        <p className="text-gray-600 text-sm">{x.company}</p>
+                      <div className="flex items-center gap-x-1 pb-1">
+                        <Image
+                          priority={false}
+                          loading="lazy"
+                          src={x.companyImage}
+                          width={30}
+                          height={30}
+                          className="object-cover rounded"
+                          alt={x.company}
+                        />
+                        <p className="text-sm">{x.company}</p>
                       </div>
-                      <h1 className="font-semibold text-sm truncate text-wrap pb-5">
+                      <h1 className="font-semibold text-sm truncate text-wrap pb-0.5">
                         {x.title}
                       </h1>
                       <div className="text-gray-150 text-sm ">
@@ -54,10 +63,10 @@ export default function Home() {
                           Course duration:{" "}
                           <span className="font-semibold">{x.duration}</span>{" "}
                         </p>
-                        <p className="">
+                        {/* <p className="">
                           Course difficulty:{" "}
                           <span className="font-semibold">{x.dificulty}</span>{" "}
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>

@@ -18,12 +18,12 @@ export default function Header({ setIsPricingOpen }) {
           </div>
         </Link>
         <div>
-          <button
+          {/* <button
             onClick={(e) => setIsPricingOpen(true)}
             className="rounded-lg text-white bg-blue-150 py-2 xl:py-3 px-3 xl:px-6 gap-2 text-xs font-semibold"
           >
             Request pricing
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

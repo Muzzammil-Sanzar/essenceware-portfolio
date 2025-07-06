@@ -20,21 +20,17 @@ export default async function About() {
     <>
       <div className="">
         <div className="">
-          <h1 className="font-semibold text-center text-3xl lg:text-[32px] text-blue-140 mb-3 lg:pb-2">
+          <h1 className="font-semibold sm:text-center text-3xl lg:text-[32px] text-blue-140 mb-3 lg:pb-2">
             About Us
           </h1>
-          <div className="text-gray-150 font-medium  sm:text-center w-full flex items-end justify-center">
+          <div className=" text-base text-gray-450 text-balance sm:text-center w-full flex items-end justify-center">
             <p
-              className={`sm:max-w-lg lg:max-w-[762px] lg:mb-12 font-medium leading-7 lg:text-base text-[13px] hidden sm:block`}
+              className={`sm:max-w-lg lg:max-w-[762px] lg:mb-12 leading-7 lg:text-base text-[13px] hidden sm:block`}
             >
-              Essenceware is a mobile app development agency focused on making
-              great apps. Our team works hard to design and build apps that are
-              easy to use and meet the needs of businesses and people. We aim to
-              provide services that are dependable and straightforward, helping
-              our clients succeed with their digital projects.
+              Essenceware is a software company specializing in Android, iOS, UX/UI design, and ASO. We also offer website development, SEO, Amazon listing image design, and IT courses in partnership with NAVTTC. Our reliable, high-quality solutions help businesses and individuals succeed in the digital world.
             </p>
             <p
-              className={`sm:max-w-lg lg:max-w-[762px] lg:mb-12 font-medium leading-7 lg:text-base text-[13px] sm:hidden`}
+              className={`sm:max-w-lg lg:max-w-[762px] lg:mb-12 leading-7 lg:text-base text-[13px] sm:hidden`}
             >
               Essenceware is a mobile app development agency focused on making
               great apps. Our team works hard to design and build apps that are
@@ -42,11 +38,11 @@ export default async function About() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-28 mt-10 px-10 md:divide-x-2 lg:divide-x-0 xl:divide-x-2 md:divide-blue-150/10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6 mb-10 md:mb-28 mt-10 sm:px-10 md:divide-x-2 lg:divide-x-0 xl:divide-x-2 md:divide-blue-150/30">
           <AboutUsCeos />
         </div>
 
-        <div className="flex mt-8 lg:flex-row flex-col items-center lg:divide-x-2 divide-blue-150/10 gap-y-12">
+        <div className="flex mt-8 lg:flex-row flex-col items-center lg:divide-x-2 divide-blue-150/30 gap-y-12">
           {/* <div className="flex items-center justify-start lg:w-2/5 max-w-lg mx-auto w-full gap-4 md:gap-6">
             <div className="">
               <Image

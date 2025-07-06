@@ -1,11 +1,11 @@
-import fawad from "@/app/assets/FawadKhan.jpg";
+import fawad from "@/app/assets/FawadKhan.png";
 import fareed from "@/app/assets/fareed.jpg";
 import zeeshan from "@/app/assets/Zeeshan.jpg";
 import furqan from "@/app/assets/furqan.jpg";
 import waqas from "@/app/assets/waqas.jpg";
 import mehwish from "@/app/assets/mehwish.jpg";
-import MehranDurraniCEO from "@/app/assets/MehranDurraniCEO.jpg";
-import AzizUllahDirector from "@/app/assets/AzizUllahDirector.jpg";
+import MehranDurraniCEO from "@/app/assets/MehranDurraniCEO.png";
+import AzizUllahDirector from "@/app/assets/AzizUllahDirector.png";
 import aqsa from "@/app/assets/aqsa.jpg";
 import alam from "@/app/assets/alam.jpg";
 import hamza from "@/app/assets/hamza.jpg";
@@ -45,8 +45,8 @@ export const TeamCarousel = [
   },
   {
     name: "Mehwish Iqbal",
-    role: "ASO Exper",
-    bio: "Mehwish Iqbal, ASO Expert, focuses on improving app rankings and downloads through effective app store optimization and data-driven techniques. ",
+    role: "SEO Exper",
+    bio: "Mehwish Iqbal, SEO Expert, focuses on improving app rankings and downloads through effective app store optimization and data-driven techniques. ",
     imageSrc: mehwish,
   },
 ];
@@ -55,31 +55,42 @@ export const ceos = [
   {
     name: "Mehran Durrani",
     role: "CEO",
-    bio: "Mehran Durrani, the CEO of Essenceware, drives the company with a focus on innovation and strategic growth.",
+    bio: "Mehran Durrani, CEO of Essenceware and an ASO expert, drives innovation and growth, helping apps achieve higher visibility and downloads on iOS and Android.",
     imageSrc: MehranDurraniCEO,
   },
   {
     name: "Fawad Khan",
     role: "Director",
-    bio: "Fawad, the director of Essenceware, guides the company with a focus on fresh ideas and doing things effectively. His clear vision helps the team work together.",
+    bio: "Fawad Khan, Director of Essenceware, is a skilled product designer responsible for shaping the company’s future strategy and ensuring operational excellence.",
     imageSrc: fawad,
   },
   {
     name: "Aziz Ullah",
     role: "Director",
-    bio: "Aziz Ullah, Director of Essenceware, leads with a focus on innovation and effective strategies, driving the company towards success.",
+    bio: "Aziz Ullah, Director of Essenceware, is a skilled Developer and ASO Expert, focused on building high-performance applications and optimizing their reach across app platforms",
     imageSrc: AzizUllahDirector,
   },
 ];
 
 export const allMembers = [
   {
+    name: "Mehran Durrani",
+    role: "CEO",
+    bio: "Mehran Durrani, CEO of Essenceware and an ASO expert, drives innovation and growth, helping apps achieve higher visibility and downloads on iOS and Android.",
+    imageSrc: MehranDurraniCEO,
+  },
+  {
     name: "Fawad",
     role: "COO",
-    bio: "Fawad, the COO of Essenceware, leads the company with a focus on new ideas and doing things well. His clear vision helps the team work together and always get better.",
+    bio: "Fawad Khan, Director of Essenceware, is a skilled product designer responsible for shaping the company’s future strategy and ensuring operational excellence.",
     imageSrc: fawad,
   },
-
+  {
+    name: "Aziz Ullah",
+    role: "Director",
+    bio: "Aziz Ullah, Director of Essenceware, is a skilled Developer and ASO Expert, focused on building high-performance applications and optimizing their reach across app platforms",
+    imageSrc: AzizUllahDirector,
+  },
   {
     name: "Muhammad Faridullah",
     role: "Sr. App Developer",

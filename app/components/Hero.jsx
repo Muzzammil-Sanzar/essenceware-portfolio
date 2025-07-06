@@ -31,24 +31,24 @@ export default async function Hero() {
              /> */}
           <div className="space-y-2">
             <h1 className="font-medium text-sm sm:text-base  text-blue-140 mb-3">
-              Your journey to expertise starts here, {" "}
+              Web, Apps, and Growth — All in One Place {" "}
               <span className="text-[12px] sm:text-sm">Essenceware</span>
             </h1>
             <p className="text-xl md:text-2xl lg:text-5xl font-semibold max-w-[525px] md:leading-10">
-              Unlock Your Potential: Master New Skills with <span className="text-blue-150">Essenceware</span>
+              <span className="text-blue-150">Essenceware</span> – Mobile & Web Innovation, & Skills Development
             </p>
           </div>
           <HeroButtons />
         </div>
-        <div className="md:hidden lg:block relative h-full">
+        <div className="md:hidden lg:block relative h-full max-w-[700px]">
           <Image
             priority={false}
             loading="lazy"
             src={hero}
             alt="hero"
-            className="max-w-[700px] w-full hidden 1xl:block "
+            className="max-w-[700px] w-full hidden  "
           />
-          <div className="1xl:absolute top-0 max-w-[700px] w-full 1xl:h-[375px] rounded sm:rounded-lg lg:rounded-2xl overflow-hidden mb-5">
+          <div className=" w-full 1xl:h-[375px] rounded sm:rounded-lg lg:rounded-2xl overflow-hidden mb-5">
             <CloudinaryVideo />
           </div>
         </div>

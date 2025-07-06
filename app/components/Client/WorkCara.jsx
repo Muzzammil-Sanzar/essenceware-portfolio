@@ -55,7 +55,7 @@ export default function WorkCara() {
   );
   return (
     <>
-      <section className="embla12 relative w-full md:flex md:items-center gap-1">
+      <section className="embla12 relative md:flex md:items-center gap-1">
         <div className="hidden md:flex">
           <PrevButton
             onClick={() => onButtonAutoplayClick(onPrevButtonClick)}
@@ -65,10 +65,10 @@ export default function WorkCara() {
         <div className="embla__viewport12" ref={emblaRef}>
           <div className="embla__container12">
             {DetailedCaseStudy.map((x, index) => (
-              <div key={index} className="embla__slide12 ">
+              <div key={index} className="embla__slide12 py-3 ">
                 <div
                   id="portfolioCarousel"
-                  className="cursor-pointer portfolioCarousel rounded-2xl  bg-white shadow border border-slate-100 p-2"
+                  className="cursor-pointer portfolioCarousel rounded-2xl bg-white shadow border border-slate-100 hover:scale-105 duration-300 ease-in-out p-2"
                   onClick={(e) => {
                     setIsOpen(true);
                     setSelectedCaseStudy(x);
@@ -89,7 +89,7 @@ export default function WorkCara() {
 
                   <div className="flex justify-between items-center py-2 space-y-1 rounded-b-2xl px-2">
                     <div className="space-y-1">
-                      <div className="flex items-center gap-x-1">
+                      <div className="flex items-center gap-x-1 pb-1">
                         <Image
                           priority={false}
                           loading="lazy"
@@ -101,7 +101,7 @@ export default function WorkCara() {
                         />
                         <p className="text-sm">{x.company}</p>
                       </div>
-                      <h1 className="font-semibold text-sm truncate text-wrap pb-5">
+                      <h1 className="font-semibold text-sm truncate text-wrap pb-0.5">
                         {x.title}
                       </h1>
                       <div className="text-gray-150 text-sm ">
@@ -109,10 +109,10 @@ export default function WorkCara() {
                           Course duration:{" "}
                           <span className="font-semibold">{x.duration}</span>{" "}
                         </p>
-                        <p className="">
+                        {/* <p className="">
                           Course difficulty:{" "}
                           <span className="font-semibold">{x.dificulty}</span>{" "}
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </div>
